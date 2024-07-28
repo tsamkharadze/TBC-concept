@@ -5,8 +5,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>თიბისი კონცეპტი | TBC Concept</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="queries.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css"
+    />
+    <link rel="stylesheet" href="./slider.css" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/queries.css" />
   </head>
   <body>
     <div class="container">
@@ -80,21 +85,21 @@
               </svg>
               <p>ქარ</p>
             </button>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="burger-menu"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+              />
+            </svg>
           </div>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            class="burger-menu"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-            />
-          </svg>
         </div>
       </header>
 
@@ -250,53 +255,83 @@
             <div class="subscribe_text">ყველა შეთავაზება</div>
           </div>
         </div>
-        <div class="offers-card-container">
-          <div class="offers-card">
-            <img class="offers-card-image" src="img/offers1.jpg" alt="image1" />
+        <div class="slider">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img
+                  class="offers-card-image"
+                  src="img/offers1.jpg"
+                  alt="image1"
+                />
 
-            <div class="offers-card-el1">
-              <p>ჯაზ ფესტივალის შეთავაზებები</p>
+                <div class="offers-card-el1">
+                  <p>ჯაზ ფესტივალის შეთავაზებები</p>
+                </div>
+                <p class="offers-card-el2">IVERIA BEACH - დაიბრუნეთ 30%</p>
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="offers-card-image"
+                  src="img/offers2.png"
+                  alt="image1"
+                />
+                <div class="offers-card-el1">
+                  <p>ავტო</p>
+                  <p>თეგეტა მოტორსი</p>
+                </div>
+                <p class="offers-card-el2">თეგეტა მოტორსი - 50% ფასდაკლება</p>
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="offers-card-image"
+                  src="img/offers3.png"
+                  alt="image1"
+                />
+                <div class="offers-card-el1">
+                  <p>ავტო</p>
+                  <p>ჯაზ ფესტივალის შეთავაზებები</p>
+                  <p>თეგეტა მოტორსი</p>
+                </div>
+                <p class="offers-card-el2">თეგეტა მოტორსი - ბათუმი</p>
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="offers-card-image"
+                  src="img/offers4.png"
+                  alt="image1"
+                />
+                <div class="offers-card-el1">
+                  <p>დასვენება</p>
+                  <p>ვიზა</p>
+                  <p>ჯაზ ფესტივალის შეთავაზებები</p>
+                </div>
+                <p class="offers-card-el2">
+                  Le Meridien Batumi – 15%-იანი ფასდაკლება
+                </p>
+              </div>
+              <div class="swiper-slide">
+                <img
+                  class="offers-card-image"
+                  src="img/offers5.png"
+                  alt="image5"
+                />
+                <div class="offers-card-el1">
+                  <p>დასვენება</p>
+                  <p>ვიზა</p>
+                  <p>ჯაზ ფესტივალის შეთავაზებები</p>
+                </div>
+                <p class="offers-card-el2">
+                  Colosseum Marina Hotel – 15%-იანი ფასდაკლება
+                </p>
+              </div>
             </div>
-            <p class="offers-card-el2">IVERIA BEACH - დაიბრუნეთ 30%</p>
-          </div>
-          <div class="offers-card">
-            <img class="offers-card-image" src="img/offers2.png" alt="image1" />
-            <div class="offers-card-el1">
-              <p>ავტო</p>
-              <p>თეგეტა მოტორსი</p>
-            </div>
-            <p class="offers-card-el2">თეგეტა მოტორსი - 50% ფასდაკლება</p>
-          </div>
-          <div class="offers-card">
-            <img class="offers-card-image" src="img/offers3.png" alt="image1" />
-            <div class="offers-card-el1">
-              <p>ავტო</p>
-              <p>ჯაზ ფესტივალის შეთავაზებები</p>
-              <p>თეგეტა მოტორსი</p>
-            </div>
-            <p class="offers-card-el2">თეგეტა მოტორსი - ბათუმი</p>
-          </div>
-          <div class="offers-card">
-            <img class="offers-card-image" src="img/offers4.png" alt="image1" />
-            <div class="offers-card-el1">
-              <p>დასვენება</p>
-              <p>ვიზა</p>
-              <p>ჯაზ ფესტივალის შეთავაზებები</p>
-            </div>
-            <p class="offers-card-el2">
-              Le Meridien Batumi – 15%-იანი ფასდაკლება
-            </p>
-          </div>
-          <div class="offers-card">
-            <img class="offers-card-image" src="img/offers5.png" alt="image5" />
-            <div class="offers-card-el1">
-              <p>დასვენება</p>
-              <p>ვიზა</p>
-              <p>ჯაზ ფესტივალის შეთავაზებები</p>
-            </div>
-            <p class="offers-card-el2">
-              Colosseum Marina Hotel – 15%-იანი ფასდაკლება
-            </p>
+
+            <!-- pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- scrollbar -->
+            <div class="swiper-scrollbar"></div>
           </div>
         </div>
       </div>
@@ -324,9 +359,44 @@
             store icon"
               />
             </div>
+            <div class="download-box">
+              <svg
+                width="14"
+                height="14"
+                viewBox="0 0 14 14"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M6.41702 7.04427C6.41592 7.02966 6.41536 7.01489 6.41536 7V2.33333C6.41536 2.01133 6.67611 1.75 6.9987 1.75C7.32128 1.75 7.58203 2.01133 7.58203 2.33333V6.9999L8.98203 5.95C9.23986 5.75575 9.60562 5.80883 9.7987 6.06667C9.99236 6.3245 9.93987 6.69025 9.68203 6.88333L7.3487 8.63333C7.24545 8.71092 7.12178 8.75 6.9987 8.75C6.88145 8.75 6.7642 8.71442 6.66328 8.64383L4.32995 7.00233C4.06628 6.81683 4.0027 6.45283 4.1882 6.18975C4.3737 5.92608 4.73711 5.8625 5.00078 6.048L6.41702 7.04427ZM3.4987 9.91667V10.5H10.4987V9.91667C10.4987 9.59583 10.7612 9.33333 11.082 9.33333C11.4029 9.33333 11.6654 9.59583 11.6654 9.91667V11.0833C11.6654 11.4042 11.4029 11.6667 11.082 11.6667H2.91536C2.59453 11.6667 2.33203 11.4042 2.33203 11.0833V9.91667C2.33203 9.59583 2.59453 9.33333 2.91536 9.33333C3.2362 9.33333 3.4987 9.59583 3.4987 9.91667Z"
+                  fill="#182CC0"
+                ></path>
+                <mask
+                  id="mask0_233_12132"
+                  maskUnits="userSpaceOnUse"
+                  x="2"
+                  y="1"
+                  width="10"
+                  height="11"
+                  style="mask-type: luminance"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M6.41702 7.04427C6.41592 7.02966 6.41536 7.01489 6.41536 7V2.33333C6.41536 2.01133 6.67611 1.75 6.9987 1.75C7.32128 1.75 7.58203 2.01133 7.58203 2.33333V6.9999L8.98203 5.95C9.23986 5.75575 9.60562 5.80883 9.7987 6.06667C9.99236 6.3245 9.93987 6.69025 9.68203 6.88333L7.3487 8.63333C7.24545 8.71092 7.12178 8.75 6.9987 8.75C6.88145 8.75 6.7642 8.71442 6.66328 8.64383L4.32995 7.00233C4.06628 6.81683 4.0027 6.45283 4.1882 6.18975C4.3737 5.92608 4.73711 5.8625 5.00078 6.048L6.41702 7.04427ZM3.4987 9.91667V10.5H10.4987V9.91667C10.4987 9.59583 10.7612 9.33333 11.082 9.33333C11.4029 9.33333 11.6654 9.59583 11.6654 9.91667V11.0833C11.6654 11.4042 11.4029 11.6667 11.082 11.6667H2.91536C2.59453 11.6667 2.33203 11.4042 2.33203 11.0833V9.91667C2.33203 9.59583 2.59453 9.33333 2.91536 9.33333C3.2362 9.33333 3.4987 9.59583 3.4987 9.91667Z"
+                    fill="white"
+                  ></path>
+                </mask>
+                <g mask="url(#mask0_233_12132)"></g>
+              </svg>
+              <p>DOWNLOAD</p>
+            </div>
           </div>
         </div>
         <img class="get-app-img" src="img/get-app-main.png" />
+        <p class="get-app-title-querry">ციფრული ბანკი</p>
       </div>
 
       <!-- PRODUCTS -->
@@ -335,8 +405,8 @@
         <div class="offers-title-container">
           <p class="offers-title">პროდუქტები</p>
         </div>
-        <div class="offers-card-container">
-          <div class="offers-card">
+        <div class="products-container">
+          <div class="products-card">
             <img
               class="offers-card-image"
               src="img/digital-card.png"
@@ -354,7 +424,7 @@
               ფინანსები და საბანკო ოპერაციები.
             </p>
           </div>
-          <div class="offers-card">
+          <div class="products-card">
             <img
               class="offers-card-image"
               src="img/premium-card.png"
@@ -371,7 +441,7 @@
               ხარისხის მომსახურების უზრუნველყოფაა.
             </p>
           </div>
-          <div class="offers-card">
+          <div class="products-card">
             <img
               class="offers-card-image"
               src="img/360-card.png"
@@ -407,56 +477,84 @@
         <div class="awards-title-container">
           <p class="awards-title">ჯილდოები</p>
         </div>
-        <div class="awards-card-container">
-          <div class="awards-card">
-            <img
-              class="awards-card-image"
-              src="img/awards1-3.png"
-              alt="image1"
-              height="52"
-            />
+        <div class="slider">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="awards-card">
+                  <img
+                    class="awards-card-image"
+                    src="img/awards1-3.png"
+                    alt="image1"
+                    height="52"
+                  />
+                  <div class="awards-card-el1">
+                    <p>
+                      საუკეთესო პერსონალური საბანკო მომსახურება საქართველოში
+                      2024
+                    </p>
+                  </div>
+                  <p class="awards-card-el2">The Global Finance</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="awards-card">
+                  <img
+                    class="awards-card-image"
+                    src="img/awards2.png"
+                    alt="image1"
+                    height="50"
+                  />
+                  <div class="awards-card-el1">
+                    <p>
+                      საუკეთესო პერსონალური საბანკო მომსახურება საქართველოში
+                      2023
+                    </p>
+                  </div>
+                  <p class="awards-card-el2">Euromoney</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="awards-card">
+                  <img
+                    class="awards-card-image"
+                    src="img/awards1-3.png"
+                    alt="image1"
+                    height="52"
+                  />
+                  <div class="awards-card-el1">
+                    <p>
+                      საუკეთესო პერსონალური საბანკო მომსახურება საქართველოში
+                      2022
+                    </p>
+                  </div>
+                  <p class="awards-card-el2">The Global Finance</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="awards-card">
+                  <img
+                    class="awards-card-image"
+                    src="img/awards4.png"
+                    alt="image1"
+                    height="52"
+                  />
+                  <div class="awards-card-el1">
+                    <p>
+                      საუკეთესო პერსონალური საბანკო მომსახურება საქართველოში
+                      2021
+                    </p>
+                  </div>
+                  <p class="awards-card-el2">The Banker & PWM</p>
+                </div>
+              </div>
+            </div>
 
-            <div class="awards-card-el1">
-              <p>საუკეთესო პერსონალური საბანკო მომსახურება საქართველოში 2024</p>
-            </div>
-            <p class="awards-card-el2">The Global Finance</p>
-          </div>
-          <div class="awards-card">
-            <img
-              class="awards-card-image"
-              src="img/awards2.png"
-              alt="image1"
-              height="50"
-            />
-            <div class="awards-card-el1">
-              <p>საუკეთესო პერსონალური საბანკო მომსახურება საქართველოში 2023</p>
-            </div>
-            <p class="awards-card-el2">Euromoney</p>
-          </div>
-          <div class="awards-card">
-            <img
-              class="awards-card-image"
-              src="img/awards1-3.png"
-              alt="image1"
-              height="52"
-            />
+            <!-- pagination -->
+            <div class="swiper-pagination"></div>
 
-            <div class="awards-card-el1">
-              <p>საუკეთესო პერსონალური საბანკო მომსახურება საქართველოში 2022</p>
-            </div>
-            <p class="awards-card-el2">The Global Finance</p>
-          </div>
-          <div class="awards-card">
-            <img
-              class="awards-card-image"
-              src="img/awards4.png"
-              alt="image1"
-              height="52"
-            />
-            <div class="awards-card-el1">
-              <p>საუკეთესო პერსონალური საბანკო მომსახურება საქართველოში 2021</p>
-            </div>
-            <p class="awards-card-el2">The Banker & PWM</p>
+            <!-- scrollbar -->
+            <div class="swiper-scrollbar"></div>
           </div>
         </div>
       </div>
@@ -490,20 +588,6 @@
                 <p>ქარ</p>
               </button>
             </div>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              class="burger-menu"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-              />
-            </svg>
           </div>
         </div>
         <div class="footer-container">
@@ -522,8 +606,79 @@
             <p>ბიბლიოთეკა</p>
             <p>კაფე</p>
           </div>
+          <div class="accordion-container">
+            <div class="accordion">
+              <div class="question">
+                <p class="question-content">პროდუქტები</p>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  class="arrow-down"
+                >
+                  <path
+                    d="M8.14644661,10.1464466 C8.34170876,9.95118446 8.65829124,9.95118446 8.85355339,10.1464466 L12.4989857,13.7981758 L16.1502401,10.1464466 C16.3455022,9.95118446 16.6620847,9.95118446 16.8573469,10.1464466 C17.052609,10.3417088 17.052609,10.6582912 16.8573469,10.8535534 L12.4989857,15.2123894 L8.14644661,10.8535534 C7.95118446,10.6582912 7.95118446,10.3417088 8.14644661,10.1464466 Z"
+                  ></path>
+                </svg>
+              </div>
+
+              <div class="hidden-box">
+                <p>ნაკრები</p>
+                <p>პერსონალური ბანკირი</p>
+              </div>
+            </div>
+
+            <div class="accordion">
+              <div class="question">
+                <p class="question-content">Lifestyle</p>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  class="arrow-down"
+                >
+                  <path
+                    d="M8.14644661,10.1464466 C8.34170876,9.95118446 8.65829124,9.95118446 8.85355339,10.1464466 L12.4989857,13.7981758 L16.1502401,10.1464466 C16.3455022,9.95118446 16.6620847,9.95118446 16.8573469,10.1464466 C17.052609,10.3417088 17.052609,10.6582912 16.8573469,10.8535534 L12.4989857,15.2123894 L8.14644661,10.8535534 C7.95118446,10.6582912 7.95118446,10.3417088 8.14644661,10.1464466 Z"
+                  ></path>
+                </svg>
+              </div>
+
+              <div class="hidden-box">
+                <div class="answer">
+                  <p>შეთავაზებები</p>
+                  <p>ღონისძიებები</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion">
+              <div class="question">
+                <p class="question-content">კონცეპტის სივრცე</p>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  class="arrow-down"
+                >
+                  <path
+                    d="M8.14644661,10.1464466 C8.34170876,9.95118446 8.65829124,9.95118446 8.85355339,10.1464466 L12.4989857,13.7981758 L16.1502401,10.1464466 C16.3455022,9.95118446 16.6620847,9.95118446 16.8573469,10.1464466 C17.052609,10.3417088 17.052609,10.6582912 16.8573469,10.8535534 L12.4989857,15.2123894 L8.14644661,10.8535534 C7.95118446,10.6582912 7.95118446,10.3417088 8.14644661,10.1464466 Z"
+                  ></path>
+                </svg>
+              </div>
+
+              <div class="hidden-box">
+                <div class="answer">
+                  <p>ბიბლიოთეკა</p>
+                  <p>კაფე</p>
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="contact">
-            <div class="footer-list">
+            <div class="contact-list">
               <p>დაგვიკავშირდით:</p>
               <p>+995 32 2 27 27 00</p>
               <p>info@tbcconcept.ge</p>
@@ -542,6 +697,7 @@
             </div>
           </div>
         </div>
+
         <div class="footer-bottom">
           <div class="bottom-logo">
             <img
@@ -559,9 +715,9 @@
       </footer>
     </div>
 
-    <script src="script/header.js"></script>
-    <script src="script/carousel.js"></script>
     <script src="script/accordion.js"></script>
-    <script src="script/autoUpdateTime.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.4/swiper-bundle.min.js"></script>
+    <script src="./script/slider.js"></script>
   </body>
 </html>

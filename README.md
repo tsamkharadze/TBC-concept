@@ -1,4 +1,4 @@
-# TBC X USAID
+# TBC Concept
 
 ## 📝 Table of Contents
 
@@ -10,7 +10,7 @@
 
 ## 🧐 About <a name = "about"></a>
 
-This project is part of an educational project selection stage by TBC Academy and USAID. The task involves creating a page similar to TBC X USAID.
+This project is part of an educational project selection stage by TBC Academy and USAID. The task involves creating a page similar to TBC Concept
 
 ## 🤖 Technologies Used <a name="technologies_used"></a>
 
@@ -44,7 +44,7 @@ These instructions will get you a copy of the project up and running on your loc
 1. Clone the Repository:
 
 ```
-git clone https://github.com/tsamkharadze/stage-IV-coding-challenge.git
+git clone https://github.com/tsamkharadze/TBC-concept.git
 ```
 
 2. Open the Webpage:

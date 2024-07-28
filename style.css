@@ -13,6 +13,11 @@ body {
   background-color: rgb(249, 250, 250);
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 header {
   background-color: rgb(255, 255, 255);
   position: fixed;
@@ -25,14 +30,10 @@ header {
   height: 84px;
   max-width: 1200px;
   padding-left: 40px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.container {
-  margin: 0 auto;
 }
 
 .tbc-logo {
@@ -108,12 +109,8 @@ li a {
 /* HERO SECTION */
 
 .hero {
-  margin: 180px 50px 60px 50px;
-  margin-left: auto;
-  margin-right: auto;
-
   min-height: 360px;
-  max-width: 1100px;
+  margin: 150px 50px 20px 50px;
   border-radius: 5px;
 
   background-image: url(img/hero-img.webp);
@@ -163,8 +160,8 @@ li a {
 /* WELCOME SECTION */
 
 .welcome {
-  max-width: 980px;
-  margin: 0 auto;
+  /* max-width: 980px; */
+  margin: 0 50px;
 }
 
 .welcome-text {
@@ -185,8 +182,9 @@ main {
 }
 
 .card-container {
-  max-width: 980px;
-  margin: 0 auto;
+  /* max-width: 980px; */
+  /* margin: 0 auto; */
+  margin: 0 50px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-row-gap: 20px;
@@ -270,9 +268,9 @@ main {
 /*  numbers */
 
 .numbers {
-  max-width: 1100px;
+  /* max-width: 1100px; */
   background-color: rgb(249, 250, 250);
-  margin: 120px auto 120px auto;
+  margin: 120px 50px;
   display: flex;
   align-items: center;
   gap: 20px;
@@ -298,36 +296,29 @@ main {
 /* offers */
 
 .offers-container {
-  max-width: 1100px;
-  margin: 0 auto;
+  /* max-width: 1100px; */
+  margin: 0 50px;
   background-color: rgb(249, 250, 250);
 }
 
 .offers-title-container {
   display: flex;
   justify-content: space-between;
-  margin: 0 50px 0 50px;
+  /* margin: 0 50px; */
 }
 .offers-title {
   font-size: 24px;
   font-weight: 700;
   letter-spacing: 0.8px;
-  margin: 37px 0 40px 5px;
+  margin: 37px 0 40px 0;
   /* grid-column: 1/-1; */
 }
 
-.offers-card-container {
-  margin: 0 50px 0 50px;
-  display: flex;
-  gap: 15px;
-  overflow-x: auto; /* Enable horizontal scrolling */
-  scroll-behavior: smooth; /* Smooth scrolling behavior */
-  -webkit-overflow-scrolling: touch; /* For smooth scrolling on iOS */
-  max-width: 100%; /* Ensure it can adapt to different screen sizes */
-  padding-bottom: 20px; /* Some bottom padding to avoid cutting off last card */
+.swiper-wrapper {
+  cursor: pointer;
 }
 
-.offers-card {
+.swiper-slide {
   border-radius: 10px;
   /* flex: 0 0 auto; */
   margin-right: 20px; /* Spacing between cards */
@@ -335,11 +326,12 @@ main {
   /* max-width: calc(100%-20px); */
 
   border: 1px solid rgb(226, 228, 229);
+  overflow: hidden;
 }
 
 .offers-card-image {
-  max-width: 421px;
-  max-height: 256px;
+  width: 100%;
+  height: auto;
   /* height: 100%;
   width: 100%; */
   margin-bottom: 15px;
@@ -360,13 +352,14 @@ main {
   font-weight: 700;
   padding-left: 20px;
   padding-bottom: 60px;
+  height: 60px;
 }
 
 /* GET APP */
 
 .get-app-container {
-  margin: 0 auto;
-  max-width: 1100px;
+  /* margin: 0 50px; */
+  /* max-width: 1100px; */
   height: 374px;
   background-color: #ffffff;
   margin-top: 120px;
@@ -387,6 +380,10 @@ main {
   font-size: 24px;
   font-weight: 700;
   letter-spacing: 0.8px;
+}
+
+.get-app-title-querry {
+  display: none;
 }
 .get-app-descriprion {
   font-size: 16px;
@@ -416,7 +413,32 @@ main {
   margin: auto 50px auto 0;
 }
 
+.download-box {
+  width: 160px;
+  height: 52px;
+  display: none;
+
+  color: #182cc0;
+  border: 1px solid #182cc0;
+  border-radius: 5px;
+}
+.download-box p {
+  font-size: 12px;
+  font-weight: 700;
+}
+
 /* PRODUCTS CARDS */
+.products-container {
+  display: flex;
+  gap: 20px;
+}
+.products-card {
+  height: 407px;
+  width: 350px;
+  border-radius: 7px;
+  border: 1px solid rgb(226, 228, 229);
+  overflow: hidden;
+}
 
 .products-card-el1 {
   font-size: 16px;
@@ -432,12 +454,16 @@ main {
   padding-left: 30px;
   padding-right: 40px;
   padding-top: 15px;
+  line-height: 25px;
+
+  max-height: 120px;
+  overflow: hidden;
 }
+
+/* PRIVATE BANKER */
 
 .private-banker {
   margin: 120px 50px 60px 50px;
-  margin-left: auto;
-  margin-right: auto;
 
   min-height: 360px;
   max-width: 1100px;
@@ -452,8 +478,8 @@ main {
 /* AWARDS */
 
 .awards-container {
-  max-width: 1100px;
-  margin: 0 auto;
+  /* max-width: 1100px; */
+  margin: 0 50px;
   background-color: rgb(249, 250, 250);
 }
 
@@ -482,16 +508,17 @@ main {
 
 .awards-card {
   background-color: #ffffff;
+  width: 100%;
   border-radius: 7px;
   margin-right: 20px;
-  border: 1px solid rgb(226, 228, 229);
+  /* border: 1px solid rgb(226, 228, 229); */
   box-sizing: border-box;
 }
 
 .awards-card-image {
   margin: 20px 0 0 20px;
-  max-width: 421px;
-  max-height: 256px;
+  height: 52px !important;
+  width: auto !important;
   /* height: 100%;
   width: 100%; */
   /* margin-bottom: 15px; */
@@ -512,6 +539,7 @@ main {
   font-weight: 700;
   padding-left: 20px;
   padding-bottom: 60px;
+  padding-top: 20px;
 }
 
 /* FOOTER  */
@@ -521,21 +549,23 @@ footer {
 }
 
 .footer-nav {
+  margin-top: 100px;
   padding-top: 60px;
   padding-bottom: 30px;
 }
 
 .footer-container {
-  max-width: 1100px;
+  /* max-width: 1100px; */
   height: 270px;
   background-color: #ffffff;
-  margin: 0 auto 0 auto;
+  /* margin: 0 auto 0 auto; */
   padding: 0 60px 0 60px;
 
   display: flex;
   justify-content: space-between;
 }
-.footer-list {
+.footer-list,
+.contact-list {
   margin-top: 30px;
   display: flex;
   flex-direction: column;
@@ -619,4 +649,73 @@ footer {
 
 .bottom-text p {
   cursor: pointer;
+}
+
+/* ACCORDION */
+.accordion-container {
+  display: none;
+}
+
+.accordion {
+  margin: 0 auto;
+  background-color: #fff;
+  max-width: 900px;
+  border-top: 1px solid rgb(239, 241, 241);
+}
+
+.question {
+  height: 80px;
+  font-size: 18px;
+  padding: 15px auto;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.question-content {
+  font-weight: 700;
+}
+
+.arrow-down {
+}
+
+.hidden-box {
+  padding: 15px 0;
+  display: none;
+}
+.hidden-box p {
+  padding-bottom: 40px;
+  color: rgb(113, 120, 123);
+  cursor: pointer;
+}
+
+.answer {
+  color: rgb(113, 120, 123);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* slider */
+.swiper-container {
+  max-width: 1100px;
+  padding-bottom: 20px;
+}
+
+.swiper-scrollbar {
+  background: #d6d6d6;
+}
+
+.swiper-container-horizontal > .swiper-scrollbar {
+  border-radius: 2px;
+  height: 5px;
+  width: 200px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.swiper-wrapper img {
+  width: 100%;
 }
