@@ -50,7 +50,7 @@ git clone https://github.com/tsamkharadze/TBC-concept.git
 2. Open the Webpage:
 
 Open the `index.html` file in your preferred web browser to view the webpage.
-That's it! You've successfully launched the TBC Academy X USAID project.
+That's it! You've successfully launched the project.
 
 ## 🌐 Webpage Preview <a name="webpage_preview"></a>
 
