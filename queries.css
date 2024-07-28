@@ -44,6 +44,38 @@
     width: 80%;
   }
 
+  .card-container {
+    overflow-x: scroll;
+    white-space: nowrap;
+    padding: 20px;
+  }
+
+  .cards-wrapper {
+    display: flex;
+    gap: 20px;
+  }
+
+  .card,
+  .main-card {
+    min-width: 200px; /* Adjust this width as needed */
+    flex: 0 0 auto;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .card-el1,
+  .card-el2 {
+    margin: 10px 0;
+  }
+
+  .swiper-slide {
+    height: 296px;
+    width: 331px;
+  }
+
   .get-app-container {
     flex-direction: column;
     height: fit-content;
