@@ -54,4 +54,4 @@ That's it! You've successfully launched the TBC Academy X USAID project.
 
 ## 🌐 Webpage Preview <a name="webpage_preview"></a>
 
-Preview the webpage on the live site: [TBC X USAID Webpage](https://tsamkharadze.github.io/stage-IV-coding-challenge/)
+Preview the webpage on the live site: [TBC Concept Webpage](https://master--tbc-concept-tsamkharadze.netlify.app/)
